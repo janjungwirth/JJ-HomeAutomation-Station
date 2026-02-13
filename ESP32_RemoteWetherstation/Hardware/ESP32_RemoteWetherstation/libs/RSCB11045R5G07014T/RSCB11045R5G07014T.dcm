@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RSCB11045R5G07014T
+D Supercapacitors / Ultracapacitors MEM CAP 5.5V 0.1F
+K
+F https://www.mouser.de/datasheet/2/129/db_dbne-1165642.pdf
+$ENDCMP
+#
+#End Doc Library
