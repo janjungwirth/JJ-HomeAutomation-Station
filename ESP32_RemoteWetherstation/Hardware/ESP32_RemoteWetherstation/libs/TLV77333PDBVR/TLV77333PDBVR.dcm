@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV77333PDBVR
+D High PSRR: Up to 80dB  72dB (1kHz)  55dB (1MHz)  VIN range: 1.4V to 5.5V  Fixed output voltage range: 0.6V to 3.3V  Output voltage accuracy: 2%  Low dropout voltage:  180mV at 300mA (3.3VOUT, DQN package)  Foldback current limit  Active output pulldown resistor
+K
+F https://www.ti.com/lit/ds/symlink/tlv773.pdf?ts=1724142940835&ref_url=https%253A%252F%252Fwww.mouser.in%252F
+$ENDCMP
+#
+#End Doc Library
