@@ -5,6 +5,16 @@
 	(uuid "9a73ddec-0e33-478c-81be-c52862abf1ba")
 	(paper "A4")
 	(lib_symbols)
+	(text "Voltage-Divider Calulations"
+		(exclude_from_sim no)
+		(at 146.812 14.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45270053-f35c-4cb3-a3ce-9790d0cce2f4")
+	)
 	(text "Open Drain Output"
 		(exclude_from_sim no)
 		(at 22.86 15.748 0)
@@ -17,13 +27,23 @@
 	)
 	(text "U = 24V\nU1 = 24V - 3.3V = 20.7V\nU2 = 3.3V\n\nR2= 1000Ohm\n\nU1/U2 = R1/R2\n20.7V/3.3V = R1/1000Ohm\n20700/3.3 = 6272.72ohm\n\n6800Ohm\n\n(U-U2)/U2 = 6800/1000\n(U-U2)/U2 = 6.8\n24/U2 - 1 = 6.8\n24/U2 = 7.8\n24/7.8 = U2\nU2 = 3.077V"
 		(exclude_from_sim no)
-		(at 150.876 -20.828 0)
+		(at 151.638 40.894 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "a9f095b4-b77b-4306-9609-ebdc87bf7469")
+	)
+	(text "Inputs | Voltage-Divider"
+		(exclude_from_sim no)
+		(at 94.234 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb51a4f0-f502-4338-ae85-cad71c59886d")
 	)
 	(wire
 		(pts
@@ -47,17 +67,17 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 101.6) (xy 127 101.6)
+			(xy 171.45 12.7) (xy 171.45 63.5)
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
-		(uuid "6348181e-d143-46f5-8a43-dd75e8fe2232")
+		(uuid "38cede9e-89e2-455c-92b1-5f9695f61c21")
 	)
 	(wire
 		(pts
-			(xy 172.72 67.31) (xy 175.26 67.31)
+			(xy 93.98 52.07) (xy 96.52 52.07)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +107,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 12.7) (xy 127 101.6)
+			(xy 80.01 12.7) (xy 80.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -95,9 +115,19 @@
 		)
 		(uuid "a974251c-1423-4f75-bc94-c10211576ab7")
 	)
+	(polyline
+		(pts
+			(xy 80.01 63.5) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b5a059aa-777b-4ebf-89cb-783c7e9327df")
+	)
 	(wire
 		(pts
-			(xy 172.72 44.45) (xy 175.26 44.45)
+			(xy 93.98 29.21) (xy 96.52 29.21)
 		)
 		(stroke
 			(width 0)
@@ -107,13 +137,43 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 55.88) (xy 175.26 55.88)
+			(xy 93.98 40.64) (xy 96.52 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c82a453e-80d4-4f26-8944-e2272e440fdd")
+	)
+	(polyline
+		(pts
+			(xy 132.08 12.7) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d998439c-6997-4644-bc9c-4ead62f96ea7")
+	)
+	(polyline
+		(pts
+			(xy 132.08 63.5) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "daa4403d-79f8-431a-801b-8ea27bafbc16")
+	)
+	(polyline
+		(pts
+			(xy 12.7 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f5e3bc78-0437-464b-9a82-bbc98f446dc7")
 	)
 	(global_label "IO14"
 		(shape input)
@@ -161,7 +221,7 @@
 	)
 	(global_label "IO18"
 		(shape input)
-		(at 172.72 55.88 180)
+		(at 93.98 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -171,7 +231,7 @@
 		)
 		(uuid "54e69833-ecb6-40cb-9e7a-4eb6851ba704")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3805 55.88 0)
+			(at 86.6405 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -205,7 +265,7 @@
 	)
 	(global_label "IO19"
 		(shape input)
-		(at 172.72 67.31 180)
+		(at 93.98 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -215,7 +275,7 @@
 		)
 		(uuid "e1cfc368-aedf-4a09-acd5-bdd008fcea35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3805 67.31 0)
+			(at 86.6405 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,7 +309,7 @@
 	)
 	(global_label "IO17"
 		(shape input)
-		(at 172.72 44.45 180)
+		(at 93.98 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -259,7 +319,7 @@
 		)
 		(uuid "eb77c950-4811-4ce3-b31c-9cd5b5f0d17d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3805 44.45 0)
+			(at 86.6405 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -322,7 +382,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 64.77)
+		(at 96.52 49.53)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -338,7 +398,7 @@
 		)
 		(uuid "3eb76912-0d20-413c-ac24-599f40296773")
 		(property "Sheetname" "AnalogInput3"
-			(at 175.26 64.0584 0)
+			(at 96.52 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +407,7 @@
 			)
 		)
 		(property "Sheetfile" "AnalogInput.kicad_sch"
-			(at 175.26 70.4346 0)
+			(at 96.52 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,7 +416,7 @@
 			)
 		)
 		(pin "AnInput" input
-			(at 175.26 67.31 180)
+			(at 96.52 52.07 180)
 			(uuid "30f9ab33-785b-470f-b82b-8d0088b85dd6")
 			(effects
 				(font
@@ -426,7 +486,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 41.91)
+		(at 96.52 26.67)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -442,7 +502,7 @@
 		)
 		(uuid "7fb67666-46bf-47f1-beb2-aba01da107d8")
 		(property "Sheetname" "AnalogInput1"
-			(at 175.26 41.1984 0)
+			(at 96.52 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +511,7 @@
 			)
 		)
 		(property "Sheetfile" "AnalogInput.kicad_sch"
-			(at 175.26 47.5746 0)
+			(at 96.52 32.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +520,7 @@
 			)
 		)
 		(pin "AnInput" input
-			(at 175.26 44.45 180)
+			(at 96.52 29.21 180)
 			(uuid "69917d02-b2a6-45df-bd65-4345f46b7c91")
 			(effects
 				(font
@@ -582,7 +642,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 53.34)
+		(at 96.52 38.1)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -598,7 +658,7 @@
 		)
 		(uuid "ea3d660a-c366-4748-bdab-e9ec5b2d09d8")
 		(property "Sheetname" "AnalogInput2"
-			(at 175.26 52.6284 0)
+			(at 96.52 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +667,7 @@
 			)
 		)
 		(property "Sheetfile" "AnalogInput.kicad_sch"
-			(at 175.26 59.0046 0)
+			(at 96.52 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +676,7 @@
 			)
 		)
 		(pin "AnInput" input
-			(at 175.26 55.88 180)
+			(at 96.52 40.64 180)
 			(uuid "6b5279a7-4e7b-4dff-8096-97769c5f7f77")
 			(effects
 				(font
