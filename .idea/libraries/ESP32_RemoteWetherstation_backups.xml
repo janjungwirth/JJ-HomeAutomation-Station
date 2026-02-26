@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="ESP32_RemoteWetherstation-backups">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-16_130300.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-16_173341.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-16_174023.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-26_174632.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-26_175145.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-12-04_112747.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-13_090105.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-13_083929.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-26_174012.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-13_222657.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-12_202449.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-12_201838.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-12_200635.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-13_085543.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-13_124005.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-16_172234.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-13_215532.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-13_221634.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-12_203028.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-13_224011.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2025-11-16_131302.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-13_102648.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-26_173208.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-26_172637.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-13_082926.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-13_091147.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ESP32_RemoteWetherstation/Hardware/ESP32_RemoteWetherstation/ESP32_RemoteWetherstation-backups/ESP32_RemoteWetherstation-2026-02-12_195844.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
