@@ -15,6 +15,16 @@
 		)
 		(uuid "752b7a99-33fd-44a7-8af8-2c2e1753edb2")
 	)
+	(text "U = 24V\nU1 = 24V - 3.3V = 20.7V\nU2 = 3.3V\n\nR2= 1000Ohm\n\nU1/U2 = R1/R2\n20.7V/3.3V = R1/1000Ohm\n20700/3.3 = 6272.72ohm\n\n6800Ohm\n\n(U-U2)/U2 = 6800/1000\n(U-U2)/U2 = 6.8\n24/U2 - 1 = 6.8\n24/U2 = 7.8\n24/7.8 = U2\nU2 = 3.077V"
+		(exclude_from_sim no)
+		(at 150.876 -20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9f095b4-b77b-4306-9609-ebdc87bf7469")
+	)
 	(wire
 		(pts
 			(xy 31.75 53.34) (xy 34.29 53.34)
@@ -47,6 +57,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 67.31) (xy 175.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b02fcb-ee1d-4622-ad5f-d85a0f2ea2e9")
+	)
+	(wire
+		(pts
 			(xy 31.75 30.48) (xy 34.29 30.48)
 		)
 		(stroke
@@ -74,6 +94,26 @@
 			(type dash)
 		)
 		(uuid "a974251c-1423-4f75-bc94-c10211576ab7")
+	)
+	(wire
+		(pts
+			(xy 172.72 44.45) (xy 175.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25c2baf-96c3-4028-90d1-7e69343456b3")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82a453e-80d4-4f26-8944-e2272e440fdd")
 	)
 	(global_label "IO14"
 		(shape input)
@@ -121,22 +161,22 @@
 	)
 	(global_label "IO18"
 		(shape input)
-		(at 213.36 82.55 0)
+		(at 172.72 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "54e69833-ecb6-40cb-9e7a-4eb6851ba704")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.6995 82.55 0)
+			(at 165.3805 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -163,46 +203,24 @@
 			)
 		)
 	)
-	(global_label "IO16"
-		(shape input)
-		(at 213.36 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aee839b5-888a-4126-b97e-2f32df2f760b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.6995 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO19"
 		(shape input)
-		(at 213.36 85.09 0)
+		(at 172.72 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e1cfc368-aedf-4a09-acd5-bdd008fcea35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.6995 85.09 0)
+			(at 165.3805 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -231,22 +249,22 @@
 	)
 	(global_label "IO17"
 		(shape input)
-		(at 213.36 80.01 0)
+		(at 172.72 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "eb77c950-4811-4ce3-b31c-9cd5b5f0d17d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.6995 80.01 0)
+			(at 165.3805 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -304,6 +322,58 @@
 		)
 	)
 	(sheet
+		(at 175.26 64.77)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3eb76912-0d20-413c-ac24-599f40296773")
+		(property "Sheetname" "AnalogInput3"
+			(at 175.26 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogInput.kicad_sch"
+			(at 175.26 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AnInput" input
+			(at 175.26 67.31 180)
+			(uuid "30f9ab33-785b-470f-b82b-8d0088b85dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 34.29 39.37)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
@@ -351,6 +421,58 @@
 			(project "ESP32_RemoteWetherstation"
 				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 41.91)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fb67666-46bf-47f1-beb2-aba01da107d8")
+		(property "Sheetname" "AnalogInput1"
+			(at 175.26 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogInput.kicad_sch"
+			(at 175.26 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AnInput" input
+			(at 175.26 44.45 180)
+			(uuid "69917d02-b2a6-45df-bd65-4345f46b7c91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "8")
 				)
 			)
 		)
@@ -455,6 +577,58 @@
 			(project "ESP32_RemoteWetherstation"
 				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 53.34)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea3d660a-c366-4748-bdab-e9ec5b2d09d8")
+		(property "Sheetname" "AnalogInput2"
+			(at 175.26 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogInput.kicad_sch"
+			(at 175.26 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AnInput" input
+			(at 175.26 55.88 180)
+			(uuid "6b5279a7-4e7b-4dff-8096-97769c5f7f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "10")
 				)
 			)
 		)
