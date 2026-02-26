@@ -1,0 +1,636 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9a73ddec-0e33-478c-81be-c52862abf1ba")
+	(paper "A4")
+	(lib_symbols)
+	(text "Open Drain Output"
+		(exclude_from_sim no)
+		(at 22.86 15.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "752b7a99-33fd-44a7-8af8-2c2e1753edb2")
+	)
+	(text "U = 24V\nU1 = 24V - 3.3V = 20.7V\nU2 = 3.3V\n\nR2= 1000Ohm\n\nU1/U2 = R1/R2\n20.7V/3.3V = R1/1000Ohm\n20700/3.3 = 6272.72ohm\n\n6800Ohm\n\n(U-U2)/U2 = 6800/1000\n(U-U2)/U2 = 6.8\n24/U2 - 1 = 6.8\n24/U2 = 7.8\n24/7.8 = U2\nU2 = 3.077V"
+		(exclude_from_sim no)
+		(at 150.876 -20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9f095b4-b77b-4306-9609-ebdc87bf7469")
+	)
+	(wire
+		(pts
+			(xy 31.75 53.34) (xy 34.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d6b0e-caf3-42e9-939e-e0cabd16c0da")
+	)
+	(wire
+		(pts
+			(xy 31.75 41.91) (xy 34.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176583a7-1fd8-4a08-afe5-0ff023b6309b")
+	)
+	(polyline
+		(pts
+			(xy 12.7 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6348181e-d143-46f5-8a43-dd75e8fe2232")
+	)
+	(wire
+		(pts
+			(xy 172.72 67.31) (xy 175.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b02fcb-ee1d-4622-ad5f-d85a0f2ea2e9")
+	)
+	(wire
+		(pts
+			(xy 31.75 30.48) (xy 34.29 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809fd902-d8fd-466c-969b-d3b835c1a367")
+	)
+	(wire
+		(pts
+			(xy 31.75 64.77) (xy 34.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988f6d27-d269-4196-b5f9-aab2d8638e28")
+	)
+	(polyline
+		(pts
+			(xy 127 12.7) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a974251c-1423-4f75-bc94-c10211576ab7")
+	)
+	(wire
+		(pts
+			(xy 172.72 44.45) (xy 175.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25c2baf-96c3-4028-90d1-7e69343456b3")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82a453e-80d4-4f26-8944-e2272e440fdd")
+	)
+	(global_label "IO14"
+		(shape input)
+		(at 31.75 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b286087-50d0-439c-b0e9-2d39410ad09d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.4105 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO15"
+		(shape input)
+		(at 31.75 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "313c9981-5fee-49ab-80aa-b201ea2acb1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.4105 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO18"
+		(shape input)
+		(at 172.72 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54e69833-ecb6-40cb-9e7a-4eb6851ba704")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO12"
+		(shape input)
+		(at 31.75 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "953102e7-7253-452b-8d84-ec519b663c1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.4105 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO19"
+		(shape input)
+		(at 172.72 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1cfc368-aedf-4a09-acd5-bdd008fcea35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO13"
+		(shape input)
+		(at 31.75 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5df94d6-80c2-4376-b2cd-4cc295cd2681")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.4105 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO17"
+		(shape input)
+		(at 172.72 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb77c950-4811-4ce3-b31c-9cd5b5f0d17d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3805 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 50.8)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3584f496-8671-43b4-953a-401e867d5718")
+		(property "Sheetname" "OpenDrainOutput2"
+			(at 34.29 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpenDrainOutput.kicad_sch"
+			(at 34.29 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 34.29 53.34 180)
+			(uuid "308e15d7-778d-4e3b-9fc4-d77ed7be8077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 64.77)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3eb76912-0d20-413c-ac24-599f40296773")
+		(property "Sheetname" "AnalogInput3"
+			(at 175.26 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogInput.kicad_sch"
+			(at 175.26 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AnInput" input
+			(at 175.26 67.31 180)
+			(uuid "30f9ab33-785b-470f-b82b-8d0088b85dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f473ff6-7259-46ae-b78a-6f0d15300368")
+		(property "Sheetname" "OpenDrainOutput1"
+			(at 34.29 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpenDrainOutput.kicad_sch"
+			(at 34.29 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 34.29 41.91 180)
+			(uuid "565f433b-ce1d-46f9-83c7-8ed096d7751e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 41.91)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fb67666-46bf-47f1-beb2-aba01da107d8")
+		(property "Sheetname" "AnalogInput1"
+			(at 175.26 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogInput.kicad_sch"
+			(at 175.26 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AnInput" input
+			(at 175.26 44.45 180)
+			(uuid "69917d02-b2a6-45df-bd65-4345f46b7c91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 27.94)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "904baef5-0041-477d-b2ca-10c79a820b6f")
+		(property "Sheetname" "OpenDrainOutput"
+			(at 34.29 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpenDrainOutput.kicad_sch"
+			(at 34.29 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 34.29 30.48 180)
+			(uuid "7a0ec169-7c0c-494c-8492-2fa0d3ac1b14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 62.23)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fd4f629-df8b-4651-8b73-30a3f3c4e554")
+		(property "Sheetname" "OpenDrainOutput3"
+			(at 34.29 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpenDrainOutput.kicad_sch"
+			(at 34.29 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 34.29 64.77 180)
+			(uuid "fc40d92f-2003-45b2-904c-4e94eba23c6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 53.34)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea3d660a-c366-4748-bdab-e9ec5b2d09d8")
+		(property "Sheetname" "AnalogInput2"
+			(at 175.26 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogInput.kicad_sch"
+			(at 175.26 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AnInput" input
+			(at 175.26 55.88 180)
+			(uuid "6b5279a7-4e7b-4dff-8096-97769c5f7f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374/4641ced3-b603-4979-9d30-21d259fc76b1"
+					(page "10")
+				)
+			)
+		)
+	)
+)
