@@ -638,8 +638,28 @@
       "BME280_Sensor"
     ],
     [
+      "7f473ff6-7259-46ae-b78a-6f0d15300368",
+      "OpenDrainOutput1"
+    ],
+    [
       "884b25f4-a511-4e9d-bd1d-34e166fc4cfd",
       "Power"
+    ],
+    [
+      "4641ced3-b603-4979-9d30-21d259fc76b1",
+      "IO"
+    ],
+    [
+      "904baef5-0041-477d-b2ca-10c79a820b6f",
+      "OpenDrainOutput"
+    ],
+    [
+      "3584f496-8671-43b4-953a-401e867d5718",
+      "OpenDrainOutput2"
+    ],
+    [
+      "9fd4f629-df8b-4651-8b73-30a3f3c4e554",
+      "OpenDrainOutput3"
     ]
   ],
   "text_variables": {}
