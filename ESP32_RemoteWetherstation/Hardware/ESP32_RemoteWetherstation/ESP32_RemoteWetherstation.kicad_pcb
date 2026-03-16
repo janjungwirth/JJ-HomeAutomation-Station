@@ -1541,7 +1541,7 @@
 	(footprint "Nettie_Jan:NetTie-2_SMD_Pad0.3mm"
 		(layer "F.Cu")
 		(uuid "0daf750e-2904-479b-9ed2-2de9cdeba2e7")
-		(at 168.919332 59.8)
+		(at 136.319332 86.2)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT301"
@@ -4885,7 +4885,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "1b663605-cdd0-4772-bd53-f5a1a564e0aa")
-		(at 175.719332 63 90)
+		(at 143.119332 89.4 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C306"
@@ -7313,7 +7313,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "78f78012-89db-4930-89df-b465a9718a5a")
-		(at 169.319332 63 90)
+		(at 136.719332 89.4 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C305"
@@ -9254,7 +9254,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "c4eec6b8-a2c3-4ffa-a07c-cc90af359bdf")
-		(at 173.119332 60.7 180)
+		(at 140.519332 87.1 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C307"
@@ -9989,7 +9989,7 @@
 	(footprint "LibKiCad:SOT95P282X145-5N"
 		(layer "B.Cu")
 		(uuid "d1dff6d6-aed9-4abb-a15d-b86c8d18b689")
-		(at 172.5 63.1)
+		(at 139.9 89.5)
 		(descr "SOT-23-5_2022")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC301"
@@ -11924,7 +11924,7 @@
 		(uuid "d1f6bd08-6293-4612-95bd-7176c4b0a887")
 	)
 	(via
-		(at 171.25 61.314249)
+		(at 138.65 87.714249)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -11932,24 +11932,24 @@
 		(uuid "8872508e-03b6-4121-b24e-6a995d79c90c")
 	)
 	(segment
-		(start 171.25 61.314249)
-		(end 171.25 62.15)
+		(start 138.65 87.714249)
+		(end 138.65 88.55)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 30)
 		(uuid "51f4eddf-fb2e-41e6-978b-298ba41aa6f2")
 	)
 	(segment
-		(start 173.599332 61.999332)
-		(end 173.75 62.15)
+		(start 140.999332 88.399332)
+		(end 141.15 88.55)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 31)
 		(uuid "afa463c4-eba8-466a-8655-b0f01f99836e")
 	)
 	(segment
-		(start 173.599332 60.7)
-		(end 173.599332 61.999332)
+		(start 140.999332 87.1)
+		(end 140.999332 88.399332)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 31)
@@ -13908,7 +13908,7 @@
 		)
 		(polygon
 			(pts
-				(xy 172.819332 63.7) (xy 172.819332 64.9) (xy 168.419332 64.9) (xy 168.419332 63.7) (xy 170.519332 63.7)
+				(xy 140.219332 90.1) (xy 140.219332 91.3) (xy 135.819332 91.3) (xy 135.819332 90.1) (xy 137.919332 90.1)
 			)
 		)
 	)
@@ -13960,9 +13960,9 @@
 		)
 		(polygon
 			(pts
-				(xy 170.519332 63.6) (xy 170.519332 62.6) (xy 172.019332 62.6) (xy 172.019332 60.8) (xy 170.319332 60.8)
-				(xy 170.319332 62.8) (xy 168.319332 62.8) (xy 168.319332 60.1) (xy 173.019332 60.1) (xy 173.019332 62.6)
-				(xy 174.519332 62.6) (xy 174.519332 63.6) (xy 173.019332 63.6) (xy 172.019332 63.6)
+				(xy 137.919332 90) (xy 137.919332 89) (xy 139.419332 89) (xy 139.419332 87.2) (xy 137.719332 87.2)
+				(xy 137.719332 89.2) (xy 135.719332 89.2) (xy 135.719332 86.5) (xy 140.419332 86.5) (xy 140.419332 89)
+				(xy 141.919332 89) (xy 141.919332 90) (xy 140.419332 90) (xy 139.419332 90)
 			)
 		)
 	)
@@ -14074,7 +14074,7 @@
 		)
 		(polygon
 			(pts
-				(xy 172.919332 63.7) (xy 172.919332 64.9) (xy 176.619332 64.9) (xy 176.619332 63.7) (xy 174.519332 63.7)
+				(xy 140.319332 90.1) (xy 140.319332 91.3) (xy 144.019332 91.3) (xy 144.019332 90.1) (xy 141.919332 90.1)
 			)
 		)
 	)
