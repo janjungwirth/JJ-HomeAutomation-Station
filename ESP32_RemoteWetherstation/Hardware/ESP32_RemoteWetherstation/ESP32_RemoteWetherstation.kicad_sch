@@ -2071,6 +2071,16 @@
 		)
 		(uuid "80f96091-d8aa-44ce-9863-5a1b35276c17")
 	)
+	(text "I Sense"
+		(exclude_from_sim no)
+		(at 156.718 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81584759-633f-402f-b485-93e2aff347bd")
+	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
 		(at 20.574 15.748 0)
@@ -2120,6 +2130,16 @@
 			(type default)
 		)
 		(uuid "0f278345-b8a8-41d5-9347-4533749a9210")
+	)
+	(polyline
+		(pts
+			(xy 194.31 95.25) (xy 194.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0fad6c5b-d703-4952-83cb-ac12ed428fe6")
 	)
 	(polyline
 		(pts
@@ -2233,6 +2253,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 49.53) (xy 27.94 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655778cb-2d06-4a50-9837-223dd25dd7d4")
+	)
+	(wire
+		(pts
 			(xy 81.28 39.37) (xy 85.09 39.37)
 		)
 		(stroke
@@ -2240,6 +2270,16 @@
 			(type default)
 		)
 		(uuid "665e24d2-64ac-4a07-9585-32f52417c13e")
+	)
+	(polyline
+		(pts
+			(xy 194.31 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "669a4b17-e42f-4513-a46b-70833a6bffa9")
 	)
 	(wire
 		(pts
@@ -2520,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "f8f3a269-1e38-43d2-8af7-979c182d97c0")
+	)
+	(polyline
+		(pts
+			(xy 194.31 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fb0523b2-8c7d-4cf2-b230-e0a7ff7cef9d")
 	)
 	(global_label "SDA"
 		(shape input)
@@ -3067,6 +3117,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO2"
+		(shape input)
+		(at 25.4 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c76a9af4-12a2-481c-98ac-382aaa373c3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4294,6 +4366,48 @@
 			(project "ESP32_RemoteWetherstation"
 				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 100.33)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70c1c488-2fc5-4389-ad08-33c94fb5b4aa")
+		(property "Sheetname" "I_Sense"
+			(at 153.67 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I_Sense.kicad_sch"
+			(at 153.67 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_RemoteWetherstation"
+				(path "/bb194ab9-ddae-46dd-ae5d-1e0c862ad374"
+					(page "12")
 				)
 			)
 		)

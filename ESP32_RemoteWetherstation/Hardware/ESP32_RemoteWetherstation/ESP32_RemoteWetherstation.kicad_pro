@@ -517,7 +517,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 300,
+    "annotate_start_num": 600,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -715,6 +715,10 @@
     [
       "3eb76912-0d20-413c-ac24-599f40296773",
       "AnalogInput3"
+    ],
+    [
+      "70c1c488-2fc5-4389-ad08-33c94fb5b4aa",
+      "I_Sense"
     ]
   ],
   "text_variables": {}
